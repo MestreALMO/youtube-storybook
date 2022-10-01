@@ -8,7 +8,7 @@ import { DirectionSign } from "./partials/directionSign";
 import { IconsStoryBookContainer } from "./storybookContainer";
 
 export default {
-  title: "Icon",
+  title: "All Icons",
   component: Icon,
   argTypes: {
     color: { control: "color" },

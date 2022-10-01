@@ -1,7 +1,7 @@
-export const Title = ({ text }) => {
+export const Title = ({ text, color }) => {
   return (
     <>
-      <h2>{text}</h2>
+      <h2 style={{ color: color }}>{text}</h2>
     </>
   );
 };
