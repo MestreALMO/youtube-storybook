@@ -5,9 +5,6 @@ import { MyButton } from ".";
 export default {
   title: "Components/MyButton",
   component: MyButton,
-  argTypes: {
-    color: { control: "color" },
-  },
 };
 
 const Template = (args) => {
